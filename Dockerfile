@@ -2,9 +2,9 @@
 #
 # VERSION       1
 
-FROM thefactory/mesos
+FROM dockerimages/libmesos-ubuntu
 
-MAINTAINER Mike Babineau mike@thefactory.com
+MAINTAINER Frank Lemanschik
 
 USER root
 EXPOSE 5051
